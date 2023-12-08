@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sandalots.griftwatch.HelpAndSettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/HelpAndSettingsHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="29dp"
+                android:text="@string/helpHeading"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/inputMellow"
+                android:typeface="monospace"
+                app:layout_constraintBottom_toTopOf="@+id/settingsHeader"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/settingsHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/settingsHeading"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/buttonYellow"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                app:layout_constraintBottom_toTopOf="@+id/altSwitch"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/HelpAndSettingsHeader" />
+
+            <TextView
+                android:id="@+id/HelpAndSettingsHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="9dp"
+                android:text="@string/helpMain"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/buttonYellow"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                app:layout_constraintBottom_toTopOf="@+id/Tutorial"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/resetSwitch"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/Tutorial"
+                android:layout_width="375dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/tutorialText"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/inputMellow"
+                android:textSize="12sp"
+                android:typeface="monospace"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:id="@+id/altSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:minHeight="48dp"
+                android:text="@string/notifications"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintBottom_toTopOf="@+id/resetSwitch"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/settingsHeader"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/resetSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="9dp"
+                android:minHeight="48dp"
+                android:text="@string/reset"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintBottom_toTopOf="@+id/HelpAndSettingsHeader"
+                app:layout_constraintStart_toStartOf="@+id/HelpAndSettingsHeader"
+                app:layout_constraintTop_toBottomOf="@+id/altSwitch"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Button
+                android:id="@+id/appBuildButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="100dp"
+                android:text="@string/appBuildButton"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintBottom_toTopOf="@+id/Tutorial"
+                app:layout_constraintEnd_toEndOf="@+id/Tutorial" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

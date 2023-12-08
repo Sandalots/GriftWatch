@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <!-- this is the menu for the GriftWatch navigation drawer -->
+
+    <!-- Feed -->
+    <item
+        android:id="@+id/nav_feed"
+        android:enabled="true"
+        android:title="@string/feedHeading"/>
+
+    <!-- Grift Board -->
+    <item
+        android:id="@+id/nav_griftBoard"
+        android:enabled="true"
+        android:title="@string/griftBoardHeading"/>
+
+    <!-- Resources -->
+    <item
+        android:id="@+id/nav_resources"
+        android:enabled="true"
+        android:title="@string/resourcesHeading"/>
+
+    <!-- Create a New Grifter -->
+    <item
+        android:id="@+id/nav_createGrifter"
+        android:enabled="true"
+        android:title="@string/createGrifterHeading"/>
+
+    <!-- Help & Settings-->
+    <item
+        android:id="@+id/nav_help"
+        android:enabled="true"
+        android:title="@string/helpHeading"/>
+</menu>

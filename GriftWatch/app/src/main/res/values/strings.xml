@@ -1,0 +1,52 @@
+<resources>
+    <!-- Global App Strings -->
+    <string name="app_name">GriftWatch</string>
+
+
+    <!-- Feed Fragment -->
+    <string name="feedHeading">Feed</string>
+    <string name="feedCreateNew">Create a New Grifter</string>
+    <string name="rankLabel">Rank</string>
+    <string name="derankLabel">Derank</string>
+
+
+    <!-- CreateGrifter Fragment -->
+    <string name="createGrifterHeading">Create New Grifter</string>
+
+    <!-- TextView labels for CreateGrifter input fields -->
+    <string name="nameLabelText">Name:</string>
+    <string name="griftsLabelText">Grifts:</string>
+    <string name="countryLabelText">Country:</string>
+
+    <!-- Buttons for CreateGrifter Fragment -->
+    <string name="addTo">Add</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- GriftBoard Fragment -->
+    <string name="griftBoardHeading">GriftBoard</string>
+
+
+    <!-- Help and Settings Fragment -->
+    <string name="helpHeading">Help and Settings </string>
+    <string name="settingsHeading">Settings:</string>
+    <string name="helpMain">Help:</string>
+
+    <!-- Switch label text for Help and Settings Fragment -->
+    <string name="reset">Reset Application:</string>
+    <string name="notifications">Notifications:</string>
+
+    <string name="appBuildButton">Get App Build</string>
+
+    <string name="tutorialText">Use the Feed to view grifter entries. CLick the Create New button to add your own Grifter entry. Rank and de-rank grifters as you see fit. View the GriftBoard on the GriftBoard page from the drawer. Get resources from the resource page. And toggle setting sand view this tutorial text on the Help and Settings page. Once again this is GriftWatch. Thank you and have fun.</string>
+
+
+    <!-- Resources Fragment -->
+    <string name="resourcesHeading">Resources</string>
+    <string name="resourceTextContext">Below are a few resources to better spot and critique grifters. Don\'t be shy! Touch a link to redirect yourself to a resource!</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

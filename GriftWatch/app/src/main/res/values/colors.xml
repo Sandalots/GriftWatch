@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default colors -->
+    <color name="black">#FF000000</color>
+    <color name="red">#A84747</color>
+
+    <!-- Custom GriftWatch colors -->
+    <color name="sandMain">#BC9F54</color>
+    <color name="buttonYellow">#FFB800</color>
+    <color name="darkerSand">#695A34</color>
+    <color name="inputMellow">#FFDF8C</color>
+</resources>

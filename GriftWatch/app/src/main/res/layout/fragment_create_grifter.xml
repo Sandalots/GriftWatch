@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sandalots.griftwatch.CreateGrifterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/createGrifterHeading"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/inputMellow"
+                android:typeface="monospace"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nameLabel"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="124dp"
+                android:text="@string/nameLabelText"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/buttonYellow"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                app:layout_constraintEnd_toStartOf="@+id/nameInput"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/countryLabel"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="248dp"
+                android:layout_marginEnd="1dp"
+                android:text="@string/countryLabelText"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/buttonYellow"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                app:layout_constraintEnd_toStartOf="@+id/countryInput"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/griftsLabel"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="188dp"
+                android:text="@string/griftsLabelText"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/buttonYellow"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                app:layout_constraintEnd_toStartOf="@+id/griftsInput"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/addtoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="71dp"
+                android:backgroundTint="@color/buttonYellow"
+                android:text="@string/addTo"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/cancelButton"
+                app:layout_constraintTop_toBottomOf="@+id/countryLabel" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:backgroundTint="@color/red"
+                android:text="@string/cancel"
+                android:textColor="#FFE0B2"
+                app:layout_constraintBaseline_toBaselineOf="@+id/addtoButton"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:autofillHints="name"
+                android:backgroundTint="@color/inputMellow"
+                android:ems="10"
+                android:inputType="text"
+                android:labelFor="@id/nameLabel"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/nameLabel"
+                app:layout_constraintTop_toTopOf="@+id/nameLabel"
+                tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/griftsInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:backgroundTint="@color/inputMellow"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/griftsLabel"
+                app:layout_constraintTop_toTopOf="@+id/griftsLabel"
+                tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/countryInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="17dp"
+                android:autofillHints="country"
+                android:backgroundTint="@color/inputMellow"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/inputMellow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/countryLabel"
+                app:layout_constraintTop_toBottomOf="@+id/griftsInput"
+                tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
