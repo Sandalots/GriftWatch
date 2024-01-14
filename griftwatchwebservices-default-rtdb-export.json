@@ -1,0 +1,88 @@
+{
+  "grifters": {
+    "0": {
+      "country": "United States",
+      "griftRank": 25,
+      "grifts": "Theranos",
+      "id": 0,
+      "name": "Elizabeth Holmes"
+    },
+    "1": {
+      "country": "South Africa",
+      "griftRank": 69,
+      "grifts": "SpaceX, Tesla, SolarCity, PayPal",
+      "id": 1,
+      "name": "Elon Musk"
+    },
+    "2": {
+      "country": "United States",
+      "griftRank": 21,
+      "grifts": "FTX, Alameda Research",
+      "id": 2,
+      "name": "Sam Bankman-Fried"
+    },
+    "379969508": {
+      "country": "UK",
+      "griftRank": 0,
+      "grifts": "10",
+      "id": 379969508,
+      "name": "Roger"
+    },
+    "764940043": {
+      "country": "United States",
+      "griftRank": 40,
+      "grifts": "Trump University",
+      "id": 764940043,
+      "name": "Donald Trump"
+    },
+    "765649370": {
+      "country": "United Kingdom",
+      "griftRank": 6,
+      "grifts": "Hustler's University",
+      "id": 765649370,
+      "name": "Andrew Tate"
+    },
+    "767030606": {
+      "country": "Italy",
+      "griftRank": 6,
+      "grifts": "Ponzi Schemes",
+      "id": 767030606,
+      "name": "Charles Ponzi"
+    },
+    "768231337": {
+      "country": "United Kingdom",
+      "griftRank": 5,
+      "grifts": "Hustler's University",
+      "id": 768231337,
+      "name": "Tristan Tate"
+    },
+    "770777841": {
+      "country": "United States",
+      "griftRank": -5,
+      "grifts": "Trump Organisation",
+      "id": 770777841,
+      "name": "Donald Trump Jr"
+    },
+    "774949483": {
+      "country": "United States",
+      "griftRank": 7,
+      "grifts": "Ponzi Scheme",
+      "id": 774949483,
+      "name": "Bernie Madoff"
+    },
+    "900733821": {
+      "country": "United States",
+      "griftRank": 10,
+      "grifts": "Enron",
+      "id": 900733821,
+      "name": "Jeffrey Skilling"
+    },
+    "912119736": {
+      "country": "Canada",
+      "griftRank": 3,
+      "grifts": "Peterson Academy",
+      "id": 912119736,
+      "name": "Jordan Peterson"
+    }
+  }
+}
